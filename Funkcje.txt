@@ -1,0 +1,52 @@
+Funkcje:
+
+write(x) - Wypisuje tekst na ekranie (do pierwszej spacji)
+exit - Kończy program
+spacewrite - Wypisuje spację
+linewrite - Przechodzi do następnej linii
+keywait - Czeka na naciśnięcie klawisza
+fwrite(x) - Wypisuje tekst na ekranie (zamienia + na spacje)
+setvar(x,y) - Ustawia zmiennej x warrtość y
+getvar(x) - Wypisuje zmienną x
+fileread(x) - Wypisuje zawartość pliku x
+varfileread(x,y) - Zapisuje w zmiennej y zawartość pliku x
+filewrite(x,y) - Zapisuje tekst x w pliku y. Kasuje zawartość pliku.
+varfilewrite(x,y) - Zapisuje zmienną x w pliku y. Kasuje zawartość pliku.
+afilewrite(x,y) - Zapisuje tekst x w pliku y. Dopisuje do pliku.
+varafilewrite(x,y) - Zapisuje zmienną x w pliku y. Dopisuje do pliku.
+copyfile(x,y) - Kopiuje plik x do pliku y
+renamefile(x,y) - Zmienia nazwę pliku x na y
+deletefile(x) - Usuwa plik x
+varcopyfile(x,y) - Kopiuje plik zapisany w zmiennej x do pliku zapisanego w zmiennej y
+varrenamefile(x,y) - Zmienia nazwę pliku zapisanego w zmiennej x na  zapisany w zmiennej y
+vardeletefile(x) - Usuwa plik zawarty w zmiennej x
+prompt(x) - Zapisuje to co wpisał użytkownik do zmiennej x
+dirlist(x,y) - Zapisuje zawartość katalogu x do zmiennej y
+vardirlist(x,y) - Zapisuje zawartość katalogu zapisanego w zmiennej x do zmiennej y
+load(x) - Wczytuje skrypt LiteElite z pliku x
+ruby(x) - Wczytuje skrypt Ruby z pliku x
+vareql(x,y,z,a) - Porównuje zmienne x i y. Jeśli są równe to wykonuje skrypt LiteElite z pliku z, jeśli nie (opcjonalnie) wykonuje skrypt LiteElite z pliku a.
+varneql(x,y,z,a) - Porównuje zmienne x i y. Jeśli nie są równe to wykonuje skrypt LiteElite z pliku z, jeśli nie (opcjonalnie) wykonuje skrypt LiteElite z pliku a.
+download(x,y) - Zapisuje zawartość strony internetowej x w zmiennej y
++(x,y,z) - Zapisuje w zmiennej x wynik dodawania y + z
+-(x,y,z) - Zapisuje w zmiennej x wynik odejmowania y - z
+*(x,y,z) - Zapisuje w zmiennej x wynik mnożenia y * z
+/(x,y,z) - Zapisuje w zmiennej x wynik dzielenia y / z
+%(x,y,z) - Zapisuje w zmiennej x wynik modulo y % z
+^(x,y,z) - Zapisuje w zmiennej x wynik xor y ^ z
+|(x,y,z) - Zapisuje w zmiennej x wynik or y | z
+&(x,y,z) - Zapisuje w zmiennej x wynik and y & z
+f+ - Zapisuje w zmiennej x wynik dodawania zmiennoprzecinkowego y + z
+f- - Zapisuje w zmiennej x wynik odejmowania zmiennoprzecinkowego y - z
+f* - Zapisuje w zmiennej x wynik mnożenia zmiennoprzecinkowego y * z
+f/ - Zapisuje w zmiennej x wynik dzielenia zmiennoprzecinkowego y / z
+vargreater(x,y,z,a) - Porównuje zmienne x i y. Jeśli x jest większe to wykonuje skrypt LiteElite z pliku z, jeśli nie (opcjonalnie) wykonuje skrypt LiteElite z pliku a. Porównanie na liczbach całkowitych.
+varlower(x,y,z,a) - Porównuje zmienne x i y. Jeśli x jest mniejsze to wykonuje skrypt LiteElite z pliku z, jeśli nie (opcjonalnie) wykonuje skrypt LiteElite z pliku a. Porównanie na liczbach całkowitych.
+varfgreater(x,y,z,a) - Porównuje zmienne x i y. Jeśli x jest większe to wykonuje skrypt LiteElite z pliku z, jeśli nie (opcjonalnie) wykonuje skrypt LiteElite z pliku a. Porównanie na liczbach zmiennoprzecinkowych.
+varflower(x,y,z,a) - Porównuje zmienne x i y. Jeśli x jest mniejsze to wykonuje skrypt LiteElite z pliku z, jeśli nie (opcjonalnie) wykonuje skrypt LiteElite z pliku a. Porównanie na liczbach zmiennoprzecinkowych.
+vargreatereql(x,y,z,a) - Porównuje zmienne x i y. Jeśli x jest większe lub równe to wykonuje skrypt LiteElite z pliku z, jeśli nie (opcjonalnie) wykonuje skrypt LiteElite z pliku a. Porównanie na liczbach całkowitych.
+varlowereql(x,y,z,a) - Porównuje zmienne x i y. Jeśli x jest mniejsze lub równe to wykonuje skrypt LiteElite z pliku z, jeśli nie (opcjonalnie) wykonuje skrypt LiteElite z pliku a. Porównanie na liczbach całkowitych.
+varfgreatereql(x,y,z,a) - Porównuje zmienne x i y. Jeśli x jest większe lub równe to wykonuje skrypt LiteElite z pliku z, jeśli nie (opcjonalnie) wykonuje skrypt LiteElite z pliku a. Porównanie na liczbach zmiennoprzecinkowych.
+varflowereql(x,y,z,a) - Porównuje zmienne x i y. Jeśli x jest mniejsze lub równe to wykonuje skrypt LiteElite z pliku z, jeśli nie (opcjonalnie) wykonuje skrypt LiteElite z pliku a. Porównanie na liczbach zmiennoprzecinkowych.
+vartype(x,y) - Zmienia typ zmiennej x na typ y (int,float,string,array)
+strjoin(x,y,z) - Zapisuje w zmiennej x scalony tekst y i z.

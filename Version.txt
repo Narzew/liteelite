@@ -1,0 +1,11 @@
+Version 1.01 (12.08.2013)
+
+Version 1.00 (12.08.2013)
+ - Basic Release
+- 23 functions
+
+Version 1.01 (12.08.2013)
+
+- Added 27 new functions 24-50
+- 50 functions total
+- Instruction: Added Funkcje.txt with function definitions

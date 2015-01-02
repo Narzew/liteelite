@@ -1,0 +1,28 @@
+Lite Elite Programming Language v 1.00 by Narzew
+
+Wpisywanie kodu:
+
+komenda argument1 argument2 argument3
+komenda argument1
+komenda
+
+Zapisz plik jako [nazwa].lel
+
+Kompilacja kodu:
+
+liteelite.rb c input output
+np. 
+liteelite.rb c main.lel main.lcc
+
+Parametr output jest opcjonalny.
+Wykonanie liteelite.rb c input stworzy plik z roższerzeniem .lcc tam gdzie plik źródłowy.
+
+LCC to domyślne roższerzenie plików
+
+Wykonywanie kodu:
+
+liteelite.rb i input
+np.
+liteelite.rb i main.lcc
+
+LiteElite Programming Language v 1.00 by Narzew
